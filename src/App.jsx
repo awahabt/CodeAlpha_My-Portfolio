@@ -1,11 +1,18 @@
-
-import { Navbar } from "./component";
+import { Abouts, Home, Navbar } from "./component";
 
 function App() {
   return (
-    <div className="w-full overflow-hidden bg-red-100 flex justify-center">
-      <div className=" w-[1500px]">
-        <Navbar />
+    <div className="w-full h-full overflow-hidden">
+      <div className="flex justify-center px-10">
+        <div className=" w-[1500px]">
+          <Navbar />
+        </div>
+      </div>
+      <div className=" flex justify-center items-start">
+        <div className="w-[1500px] px-10">
+          <Home />
+          <Abouts/>
+        </div>
       </div>
     </div>
   );

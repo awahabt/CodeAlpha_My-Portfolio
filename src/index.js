@@ -21,3 +21,14 @@ export const NavLinks = [
         title: "Contact",
     },
 ];
+
+export const Projects = [
+    {
+        number: 3,
+        title: "Complete projects",
+    },
+    {
+        number: 0,
+        title: "Project review's",
+    },
+];

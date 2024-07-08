@@ -6,10 +6,10 @@ import { close, menu } from "../assets";
 const Navbar = () => {
   const [toggle, settoggle] = useState(false);
   return (
-    <div className="flex h-full w-full justify-between items-center py-4 px-5 ">
+    <div className="flex w-full justify-between items-center py-4">
       <div>
         <a href={<Home/>} className=" text-3xl font-bold montserrat">
-          @awahabt
+          <span className="text-[#fec107]">@</span>awahabt<span className="text-[#fec107]">.</span>
         </a>
       </div>
       <div>
@@ -25,7 +25,7 @@ const Navbar = () => {
         <img
           src={toggle ? close : menu}
           alt="menu"
-          className="w-[28px] h=[28px] object-contain"
+          className="w-[28px] h-[28px] object-contain"
           onClick={() => settoggle((prev) => !prev)}
         />
 
