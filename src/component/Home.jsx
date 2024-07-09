@@ -5,11 +5,11 @@ import { hero } from '../assets';
 const Home = () => {
   const text = "FrontEnd Developer";
   return (
-    <div className="w-full flex flex-wrap items-center justify-between max-[1197px]:justify-center max-[1197px]:gap-5 max-[1137px]:py-10 min-[1137px]:py-32 ">
+    <div className="w-full flex flex-wrap items-center justify-evenly max-[1197px]:justify-center max-[1197px]:gap-5 max-[1137px]:py-10 min-[1137px]:py-32 ">
       <div className="py-10 max-[1137px]:text-center">
         <p className="text-3xl montserrat font-bold text-[#ffc107]">Hi There, I'm</p>
         <p className="text-8xl montserrat font-bold max-w-[650px] py-5">Abdul <br />Wahab Tahir</p>
-        <div className="flex flex-wrap gap-2 h-[125px]">
+        <div className="flex flex-wrap gap-2 h-[125px] max-[600px]:flex-col">
           <p className="text-3xl montserrat font-bold">a passionate </p>
           <p className="text-4xl montserrat font-bold text-[#ffc107] typing-text">
             <ReactTyped strings={[text]}

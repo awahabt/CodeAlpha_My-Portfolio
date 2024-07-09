@@ -32,3 +32,62 @@ export const Projects = [
         title: "Project review's",
     },
 ];
+
+export const skillIcons = [
+    {
+        title: "JavaScript"
+    },
+    {
+        title: "CSS"
+    },
+    {
+        title: "HTML"
+    },
+    {
+        title: "REACT"
+    },
+    {
+        title: "TAILWIND"
+    },
+    {
+        title: "VITE"
+    },
+    {
+        title: "GIT"
+    },
+    {
+        title: "GITHUB"
+    },
+    {
+        title: "C#"
+    },
+    {
+        title: "C++"
+    },
+    {
+        title: "VERCEL"
+    },
+    {
+        title: ".NET"
+    },
+    {
+        title: "JAVA"
+    },
+    {
+        title: "BOOTSTRAP"
+    },
+    {
+        title: "WORDPRESS"
+    },
+    
+];
+export const Language = [
+    {
+        title: "Urdu",
+        persentage: "85%",
+    },
+    {
+        title: "English",
+        persentage: "70%",
+    },
+];
