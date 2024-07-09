@@ -6,6 +6,8 @@ import briefcase from "./briefcase.svg";
 import bank from "./bank.svg";
 import gpt from "./gpt.svg";
 import square from "./square.svg";
+import calculator from "./calculator.svg";
+import stopwatch from "./stopwatch.svg";
 
 export {
     close,
@@ -16,4 +18,6 @@ export {
     bank,
     gpt,
     square,
+    calculator,
+    stopwatch,
 };

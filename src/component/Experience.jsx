@@ -16,13 +16,13 @@ const Experience = () => {
       </div>
       <div className=" montserrat flex gap-8 flex-wrap justify-center px-10">
         {projExperience.map((proj, index) => (
-          <div className="expTab max-w-[540px] px-8 py-7" key={proj.title}>
+          <div className="expTab max-w-[540px] px-8 py-7" key={proj.id}>
             <div className="flex flex-wrap gap-5 justify-between items-center py-3">
               <div className="flex">
                 <img src={proj.image} alt="logo" className="w-[80px]" />
               </div>
               <div className="flex items-center w-[140px]">
-                <div className="px-3 py-3 bg-[#ffc107] rounded-full">
+                <div className="h-[45px] w-[45px] flex justify-center items-center bg-[#ffc107] rounded-full">
                   <img src={briefcase} alt="Date" className="w-5" />
                 </div>
                 <div className="relative left-[-3.5px] px-1 bg-[#ffc107] min-h-[19px]">

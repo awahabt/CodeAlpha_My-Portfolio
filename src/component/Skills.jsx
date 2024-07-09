@@ -14,7 +14,7 @@ const Skills = () => {
 
         <div className="flex flex-wrap  gap-2 max-w-[550px]">
           {skillIcons.map((skill, index) => (
-            <div className="skills-icon montserrat">{skill.title}</div>
+            <div className="skills-icon montserrat" key={skill.id}>{skill.title}</div>
           ))}
         </div>
       </div>
@@ -27,7 +27,7 @@ const Skills = () => {
         </p>
         <div className="flex flex-wrap items-center max-[1197px]:justify-center gap-5">
           {Language.map((lang, index) => (
-            <div className=" flex language-icon w-[230px] montserrat items-center gap-5 pl-5 py-3">
+            <div className=" flex language-icon w-[230px] montserrat items-center gap-5 pl-5 py-3" key={lang.title}>
               <div className="text-[16px] montserrat font-bold text-white bg-[#ffc107] rounded-full py-3 px-2">{lang.persentage}</div>
               <p className="text-[16px] montserrat font-bold">{lang.title}</p>
             </div>
