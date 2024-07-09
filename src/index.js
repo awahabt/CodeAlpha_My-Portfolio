@@ -146,7 +146,7 @@ export const miniProj = [
         id: "1",
         image: calculator,
         title: "Calculator",
-        description: "An innovative solution for data collection and web scraping, tailored for startups and data analysis projects.",
+        description: "The calculator allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.",
     },
     {
         id: "2",
@@ -154,10 +154,5 @@ export const miniProj = [
         title: "Stopwatch",
         description: "A simple stopwatch web application. The stopwatch allows users to start, pause, and reset the timer with ease.",
     },
-    {
-        id: "3",
-        image: calculator,
-        title: "Calculator",
-        description: "An innovative solution for data collection and web scraping, tailored for startups and data analysis projects.",
-    },
+    
 ];
