@@ -9,7 +9,7 @@ const Abouts = () => {
         <p className="text-5xl montserrat font-bold max-w-[410px]">
           I love being a developer !
         </p>
-        <p className="montserrat text-[16px] max-w-[550px] dimWhite ">
+        <p className="montserrat text-[18px] max-w-[530px] dimWhite  font-[500] leading-8 ">
           Hello, I'm Abdul Wahab Tahir a dedicated web developer currently in my
           3rd year of Software Engineering. With a passion for creating
           efficient and innovative solutions, I specialize in transforming ideas

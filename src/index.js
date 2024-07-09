@@ -1,3 +1,4 @@
+import { bank, gpt, square } from "./assets";
 
 export const NavLinks = [
     {
@@ -89,5 +90,35 @@ export const Language = [
     {
         title: "English",
         persentage: "70%",
+    },
+];
+
+export const projExperience = [
+    {
+        image: square,
+        startDate: "2023",
+        endDate: "2024",
+        domain: "FrontEnd",
+        title: "VirtuoByte",
+        time: "Full Time",
+        discription: "Successfully achieved project milestones and surpassed client satisfaction through the punctual delivery of top-tier, error-free code. Fostered seamless collaboration with the backend development team to integrate APIs flawlessly, optimizing data flow and bolstering application functionality. Demonstrated proactive problem-solving skills by swiftly identifying and resolving intricate technical challenges, thereby upholding the stability and dependability of vital applications.",
+    },
+    {
+        image: bank,
+        startDate: "2024",
+        endDate: "2024",
+        domain: "FrontEnd",
+        title: "HooBank",
+        time: "Part Time",
+        discription: "Create a user-friendly, imaginative design for a banking website, inspired by the elements showcased. Develop the fictional banking application to showcase the integration of React components with a visually appealing user interface.",
+    },
+    {
+        image: gpt,
+        startDate: "2024",
+        endDate: "2024",
+        domain: "FrontEnd",
+        title: "GPT-3 App",
+        time: "Full Time",
+        discription: "Successfully achieved project milestones and surpassed client satisfaction through the punctual delivery of top-tier, error-free code. Create an elegant design to effectively highlight the services. Design and implement a user-friendly navigation bar, and include the sponsored links. ",
     },
 ];

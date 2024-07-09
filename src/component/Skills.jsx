@@ -6,7 +6,7 @@ const Skills = () => {
     <div className="py-20 w-full flex flex-wrap gap-[17px] max-[1197px]:gap-20 justify-evenly max-[1197px]:justify-center max-[1197px]:text-center">
       <div>
         <p className="text-2xl montserrat font-bold">Skills</p>
-        <p className="montserrat text-md max-w-[550px] dimWhite py-8">
+        <p className="montserrat text-md max-w-[550px] dimWhite py-8 font-[500] leading-7 ">
           Here you can see my skills, one of the fascinations of the computer
           world is the momentary changes of technologies, but I try to update my
           knowledge every day and experience new technologies.
@@ -21,7 +21,7 @@ const Skills = () => {
 
       <div className="montserrat">
         <p className="text-2xl montserrat font-bold">Language skill</p>
-        <p className="montserrat text-md max-w-[550px] dimWhite py-8">
+        <p className="montserrat text-md max-w-[550px] dimWhite py-8 font-[500] leading-7">
           One of my hobbies is studying and learning languages. I try to be able
           to learn and use my favorite languages.
         </p>

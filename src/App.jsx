@@ -1,4 +1,4 @@
-import { Abouts, Home, Navbar, Skills } from "./component";
+import { Abouts, Experience, Home, Navbar, Skills } from "./component";
 
 function App() {
   return (
@@ -17,6 +17,17 @@ function App() {
       <div className="flex justify-center items-start bg-[#fffcf0]">
         <div className="w-[1500px] px-10">
           <Skills />
+          
+        </div>
+      </div>
+      <div className="flex justify-center items-start">
+        <div className="w-[1500px] px-10">
+          <Experience/>
+        </div>
+      </div>
+      <div className="flex justify-center items-start bg-[#fffcf0]">
+        <div className="w-[1500px] px-10">
+          
         </div>
       </div>
     </div>
