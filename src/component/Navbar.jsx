@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="flex w-full justify-between items-center py-4">
       <div>
-        <a href={<Home/>} className=" text-3xl font-bold montserrat">
+        <a href="" className=" text-3xl font-bold montserrat">
           <span className="text-[#fec107]">@</span>awahabt<span className="text-[#fec107]">.</span>
         </a>
       </div>
