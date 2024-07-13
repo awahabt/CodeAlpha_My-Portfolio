@@ -11,6 +11,8 @@ import stopwatch from "./stopwatch.svg";
 import linkedin from "./linkedin.svg";
 import instagram from "./instagram.svg";
 import github from "./github.svg";
+import location from "./location.svg";
+import gmail from "./gmail.svg";
 
 export {
     close,
@@ -26,4 +28,6 @@ export {
     linkedin,
     instagram,
     github,
+    location,
+    gmail,
 };

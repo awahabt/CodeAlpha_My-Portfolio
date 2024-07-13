@@ -1,4 +1,5 @@
 import React from "react";
+import { gmail, location } from "../assets";
 
 const Contact = () => {
   return (
@@ -71,11 +72,11 @@ const Contact = () => {
             the urls of my pages on social networks from the top of the page and
             find me there.
           </p>
-          <div>
-            <img src="" alt="" /><p className="font-semibold">Islamabad, Pakistan</p>
+          <div className="flex gap-4 items-center">
+            <img src={location} alt="Loaction" className="w-[20px]" /><p className="font-semibold">Islamabad, Pakistan</p>
           </div>
-          <div>
-            <img src="" alt="" /><p className="font-semibold">contact.abdulwahabtahir@gmail.<br/>com</p>
+          <div className="flex gap-4 items-start mt-3">
+            <img src={gmail} alt="Email-ID" className="w-[20px] pt-2" /><p className="font-semibold">contact.abdulwahabtahir<br/>@gmail.com</p>
           </div>
         </div>
       </div>
