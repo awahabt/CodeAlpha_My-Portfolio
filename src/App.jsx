@@ -2,12 +2,14 @@ import {
   Abouts,
   Contact,
   Experience,
+  Footer,
   Hire,
   Home,
   MiniProjects,
   Navbar,
   Skills,
 } from "./component";
+import Socialmedia from "./constant/Socialmedia";
 
 function App() {
   return (
@@ -41,7 +43,17 @@ function App() {
       <div className="flex justify-center items-start">
         <div className="w-[1500px] px-10">
           <MiniProjects />
-          <Contact/>
+          
+        </div>
+      </div>
+      <div className="flex justify-center items-start bg-[#fffcf0]">
+        <div className="w-[1500px] px-10">
+        <Contact/>
+        </div>
+      </div>
+      <div className="flex justify-center items-start bg-[#00171f]">
+        <div className="w-[1500px] px-10">
+        <Footer/>
         </div>
       </div>
     </div>

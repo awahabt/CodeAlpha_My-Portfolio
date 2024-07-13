@@ -1,6 +1,7 @@
 import React from 'react';
 import { ReactTyped } from 'react-typed';
 import { hero } from '../assets';
+import Socialmedia from '../constant/Socialmedia';
 
 const Home = () => {
   const text = "FrontEnd Developer";
@@ -16,7 +17,6 @@ const Home = () => {
             typeSpeed={100}
             loop
             backSpeed={40}/>
-            
           </p>
         </div>
       </div>

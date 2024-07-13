@@ -12,7 +12,7 @@ const Contact = () => {
       </div>
 
       <div className="montserrat w-full flex flex-wrap justify-center gap-16">
-        <form className=" flex flex-col form py-5 px-8 gap-8 max-w-[1000px]">
+        <form className=" flex flex-col form py-5 px-8 gap-8 max-w-[1000px] bg-white">
           <p className="text-2xl font-bold"> Whats up?</p>
           <div className="flex flex-wrap gap-8 justify-center w-full">
             <div className="flex flex-col gap-4">
@@ -63,7 +63,7 @@ const Contact = () => {
           </div>
         </form>
 
-        <div className=" flex flex-col form py-5 px-8 gap-4 max-w-[350px]">
+        <div className=" flex flex-col form py-5 px-8 gap-4 max-w-[350px] bg-white">
           <p className="text-2xl"> What is your plan ? Call me</p>
           <p className="text-sm dimWhite">
             {" "}

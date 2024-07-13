@@ -103,7 +103,7 @@
     border: 0.5px solid rgb(207, 207, 207);
     border-radius: 3px;
     outline: none;
-    transform: all ease 0.3s;
+    transition: all ease 0.3s;
 }
 .input:focus{
     border: 0.5px solid black;
@@ -113,4 +113,8 @@
     background-color: #ffc107;
     color: white;
     border-radius: 3px;
+    transition: all ease 0.3s;
+}
+.contact-btn:hover{
+    background-color: #00171f;
 }

@@ -8,6 +8,9 @@ import gpt from "./gpt.svg";
 import square from "./square.svg";
 import calculator from "./calculator.svg";
 import stopwatch from "./stopwatch.svg";
+import linkedin from "./linkedin.svg";
+import instagram from "./instagram.svg";
+import github from "./github.svg";
 
 export {
     close,
@@ -20,4 +23,7 @@ export {
     square,
     calculator,
     stopwatch,
+    linkedin,
+    instagram,
+    github,
 };

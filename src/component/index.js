@@ -5,7 +5,8 @@ import Skills from "./Skills";
 import Experience from "./Experience";
 import Hire from "./Hire";
 import MiniProjects from "./MiniProjects";
-import Contact from "./Contact"
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 export {
     Navbar,
@@ -16,4 +17,5 @@ export {
     Hire,
     MiniProjects,
     Contact,
+    Footer,
 };

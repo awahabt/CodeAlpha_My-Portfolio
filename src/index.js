@@ -1,4 +1,4 @@
-import { bank, calculator, gpt, square, stopwatch } from "./assets";
+import { bank, calculator, github, gpt, instagram, linkedin, square, stopwatch } from "./assets";
 
 export const NavLinks = [
     {
@@ -20,6 +20,24 @@ export const NavLinks = [
     {
         id: "/contact",
         title: "Contact",
+    },
+];
+
+export const SocialmediaLinks = [
+    {
+        icon: linkedin,
+        link: "https://www.linkedin.com/in/awahabt/",
+        title: "LinkedIn",
+    },
+    {
+        icon: github,
+        link: "https://github.com/awahabt",
+        title: "Github",
+    },
+    {
+        icon: instagram,
+        link: "",
+        title: "Instagram",
     },
 ];
 
