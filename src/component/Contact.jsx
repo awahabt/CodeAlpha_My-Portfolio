@@ -69,7 +69,7 @@ const Contact = () => {
           <p className="text-sm dimWhite">
             {" "}
             You can get my contact information here and if you like, you can see
-            the urls of my pages on social networks from the top of the page and
+            the urls of my pages on social networks from the bottom of the page and
             find me there.
           </p>
           <div className="flex gap-4 items-center">
