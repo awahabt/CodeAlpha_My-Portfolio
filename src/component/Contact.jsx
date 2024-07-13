@@ -11,14 +11,72 @@ const Contact = () => {
         </p>
       </div>
 
-      <div className="montserrat">
+      <div className="montserrat w-full flex flex-wrap justify-center gap-16">
+        <form className=" flex flex-col form py-5 px-8 gap-8 max-w-[1000px]">
+          <p className="text-2xl font-bold"> Whats up?</p>
+          <div className="flex flex-wrap gap-8 justify-center w-full">
+            <div className="flex flex-col gap-4">
+              <div className="flex flex-col w-full">
+                <p>Name (required) </p>
+                <input
+                  type="text"
+                  className="input text-sm w-[300px] h-[40px] relative py-[6.5px] px-2"
+                  placeholder="Full name"
+                  required
+                />
+              </div>
+              <div className=" ">
+                <p>Email (required) </p>
+                <input
+                  type="text"
+                  className="input text-sm w-[300px] h-[40px] py-[6.5px] px-2"
+                  placeholder="Email address"
+                  required
+                />
+              </div>
+              <div className=" ">
+                <p>Subject (required) </p>
+                <input
+                  type="text"
+                  className="input text-sm w-[300px] h-[40px] py-[6.5px] px-2"
+                  placeholder="Subject"
+                  required
+                />
+              </div>
+            </div>
 
-        <div>
-            <form >
-                <label className="flex flex-col gap-2">
-                <span className="font-semibold dimWhite">Name <span className="text-red-600">*</span> </span>
-                <input type="text" placeholder="Email" className="w-[250px] px-4 py-2 bor text-[#5e6472] rounded" /></label>
-            </form>
+            <div className="flex flex-col gap-4">
+              <div className=" ">
+                <p>Subject (required) </p>
+                <textarea
+                  type="text"
+                  
+                  placeholder="Type comment"
+                  className="input text-sm w-[300px] h-[200px]  py-[2px] px-2"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+          <div className="text-center pt-2 w-full">
+            <input type="submit" className="py-2 w-full contact-btn" />
+          </div>
+        </form>
+
+        <div className=" flex flex-col form py-5 px-8 gap-4 max-w-[350px]">
+          <p className="text-2xl"> What is your plan ? Call me</p>
+          <p className="text-sm dimWhite">
+            {" "}
+            You can get my contact information here and if you like, you can see
+            the urls of my pages on social networks from the top of the page and
+            find me there.
+          </p>
+          <div>
+            <img src="" alt="" /><p>Islamabad, Pakistan</p>
+          </div>
+          <div>
+            <img src="" alt="" /><p>contact.abdulwahabtahir@gmail.com</p>
+          </div>
         </div>
       </div>
     </div>
