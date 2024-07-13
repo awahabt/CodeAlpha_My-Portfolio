@@ -52,7 +52,7 @@ const Contact = () => {
                   type="text"
                   
                   placeholder="Type comment"
-                  className="input text-sm w-[300px] h-[200px]  py-[2px] px-2"
+                  className="input text-sm w-[300px] h-[200px]  pt-[4px]  px-2"
                   required
                 />
               </div>
@@ -72,10 +72,10 @@ const Contact = () => {
             find me there.
           </p>
           <div>
-            <img src="" alt="" /><p>Islamabad, Pakistan</p>
+            <img src="" alt="" /><p className="font-semibold">Islamabad, Pakistan</p>
           </div>
           <div>
-            <img src="" alt="" /><p>contact.abdulwahabtahir@gmail.com</p>
+            <img src="" alt="" /><p className="font-semibold">contact.abdulwahabtahir@gmail.<br/>com</p>
           </div>
         </div>
       </div>
