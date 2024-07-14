@@ -29,7 +29,7 @@ const Contact = () => {
               <div className=" ">
                 <p>Email (required) </p>
                 <input
-                  type="text"
+                  type="email"
                   className="input text-sm w-[300px] h-[40px] py-[6.5px] px-2"
                   placeholder="Email address"
                   required
