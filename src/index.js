@@ -163,12 +163,14 @@ export const miniProj = [
     {
         id: "1",
         image: calculator,
+        link: "https://github.com/awahabt/Calculator",
         title: "Calculator",
         description: "The calculator allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.",
     },
     {
         id: "2",
         image: stopwatch,
+        link: "https://github.com/awahabt/Stop-Watch",
         title: "Stopwatch",
         description: "A simple stopwatch web application. The stopwatch allows users to start, pause, and reset the timer with ease.",
     },

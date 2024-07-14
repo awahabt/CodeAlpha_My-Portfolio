@@ -22,7 +22,7 @@ const MiniProjects = () => {
                     <div>
                         <p className="font-bold py-4 text-[18px]">{mini.title}</p>
                         <p className="dimWhite font-[500] leading-7 text-[16px] pb-5">{mini.description}</p>
-                        <Button textBtn="Read More" styles="readMore"/>
+                        <Button textBtn="Read More" styles="readMore" link={mini.link}/>
                     </div>
                 </div>
             ))
