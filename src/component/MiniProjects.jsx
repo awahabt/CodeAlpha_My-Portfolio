@@ -1,7 +1,7 @@
 import React from 'react'
 import { miniProj } from '..'
 import Button from '../constant/Button'
-import ReadMore from '../constant/ReadMore'
+// import ReadMore from '../constant/ReadMore'
 
 const MiniProjects = () => {
   return (
@@ -22,7 +22,7 @@ const MiniProjects = () => {
                     <div>
                         <p className="font-bold py-4 text-[18px]">{mini.title}</p>
                         <p className="dimWhite font-[500] leading-7 text-[16px] pb-5">{mini.description}</p>
-                        <ReadMore/>
+                        <Button textBtn="Read More" styles="readMore"/>
                     </div>
                 </div>
             ))

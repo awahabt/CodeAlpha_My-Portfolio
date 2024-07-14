@@ -71,7 +71,7 @@
     transition: all ease 0.3s;
 }
 .button:hover{
-     background: none;
+    background: none;
     border: 1px solid white;
     color: white;
 }
