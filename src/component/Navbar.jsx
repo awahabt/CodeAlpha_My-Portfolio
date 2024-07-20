@@ -1,15 +1,17 @@
 import { useState } from "react";
 import Home from "./Home";
 import { NavLinks } from "..";
-import { close, menu } from "../assets";
+import { close, darkmode, lightmode, menu } from "../assets";
 
 const Navbar = () => {
+  const [mode, setmode] = useState(true);
   const [toggle, settoggle] = useState(false);
   return (
     <div className="flex w-full justify-between items-center py-4">
       <div>
-        <a href="" className=" text-3xl font-bold montserrat">
-          <span className="text-[#fec107]">@</span>awahabt<span className="text-[#fec107]">.</span>
+        <a href="#" className=" text-3xl font-bold montserrat">
+          <span className="text-[#fec107]">@</span>awahabt
+          <span className="text-[#fec107]">.</span>
         </a>
       </div>
       <div>
@@ -20,6 +22,14 @@ const Navbar = () => {
             </a>
           ))}
         </ul>
+      </div>
+      <div className="flex gap-4 w-6">
+        <img
+          src={mode ? lightmode : darkmode}
+          alt="Lightmode"
+          onClick={() => setmode((prev) => !prev)}
+          className="cursor-pointer"
+        />
       </div>
       <div className=" flex min-[1000px]:hidden items-center">
         <img
@@ -37,7 +47,11 @@ const Navbar = () => {
           <div className="small-screen-nav-btn">
             <ul className=" montserrat text-xl flex flex-col ">
               {NavLinks.map((Links, index) => (
-                <a href={Links.id} key={Links.id} className="small-screen-nav-btn-li">
+                <a
+                  href={Links.id}
+                  key={Links.id}
+                  className="small-screen-nav-btn-li"
+                >
                   <li>{Links.title}</li>
                 </a>
               ))}

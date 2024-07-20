@@ -13,6 +13,8 @@ import instagram from "./instagram.svg";
 import github from "./github.svg";
 import location from "./location.svg";
 import gmail from "./gmail.svg";
+import lightmode from "./lightmode.svg"
+import darkmode from "./darkmode.svg"
 
 export {
     close,
@@ -30,4 +32,6 @@ export {
     github,
     location,
     gmail,
+    lightmode,
+    darkmode
 };
