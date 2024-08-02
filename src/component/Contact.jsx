@@ -18,7 +18,7 @@ const Contact = () => {
           <div className="flex flex-wrap gap-8 justify-center w-full">
             <div className="flex flex-col gap-4">
               <div className="flex flex-col w-full">
-                <p>Name (required) </p>
+                <p>Name <span className="text-red-600">*</span></p>
                 <input
                   type="text"
                   className="input text-sm w-[300px] h-[40px] relative py-[6.5px] px-2"
@@ -27,7 +27,7 @@ const Contact = () => {
                 />
               </div>
               <div className=" ">
-                <p>Email (required) </p>
+                <p>Email <span className="text-red-600">*</span></p>
                 <input
                   type="email"
                   className="input text-sm w-[300px] h-[40px] py-[6.5px] px-2"
@@ -36,7 +36,7 @@ const Contact = () => {
                 />
               </div>
               <div className=" ">
-                <p>Subject (required) </p>
+                <p>Subject <span className="text-red-600">*</span></p>
                 <input
                   type="text"
                   className="input text-sm w-[300px] h-[40px] py-[6.5px] px-2"
@@ -48,7 +48,7 @@ const Contact = () => {
 
             <div className="flex flex-col gap-4">
               <div className=" ">
-                <p>Subject (required) </p>
+                <p>Subject <span className="text-red-600">*</span></p>
                 <textarea
                   type="text"
                   
